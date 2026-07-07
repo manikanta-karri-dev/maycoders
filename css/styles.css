@@ -1,0 +1,365 @@
+ header{
+            display:flex;
+            color:white;
+            background-color: black;
+            position:fixed;
+            top:0px;
+            z-index: 3;
+            
+        }
+        .navi{
+            width:650px;
+            display:flex;
+            justify-content: space-between;
+            padding-right: 100px;
+            list-style-type:none;
+        }
+        .navi a{
+            text-decoration: none;
+            color:white;
+            font-size: large;
+        }
+
+        .heading{
+            width:700px;
+            
+        }
+        body{
+            background-color: black;
+        }
+        .section1_1{
+            color:white;
+            padding-left: 100px;
+        }
+        .section1{
+            display:flex;
+            margin-top: 120px;
+        }
+        img{
+            padding-right: 100px;
+        }
+        .bu1,.bu2{
+            background-color: yellow;
+            width:210px;
+            margin:10px;
+            padding:20px;
+            border-radius: 10px;
+        }
+        .section2{
+            margin-top: 300px;
+            color:white;
+            text-align: center;
+        }
+        .section2 button{
+           padding:10px;
+            width:160px;
+            border-radius: 10px;
+        }
+        .section3{
+            margin-top: 300px;
+            color:white;
+            text-align: center;
+        }
+        .section3 button{
+           padding:10px;
+            width:160px;
+            border-radius: 10px;
+        }
+        .section4 div{
+            margin-top: 80px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .section4{
+            display:flex;
+            justify-content: center;
+            margin-top: 300px;
+        }
+        section input{
+            width:400px;
+            padding:10px;
+        }
+        section select{
+            width:420px;
+            padding:10px;
+        }
+        .submit2{
+            margin-bottom: 30px;
+        }
+        form label{
+           display: flex;
+           justify-content: left;
+           margin-left: 290px;
+        }
+        .section5_1{
+            display:flex;
+            margin-left: 100px;
+            justify-content: space-between;
+            margin-right: 100px;
+            
+        }
+        .section5_2{
+            display:flex;
+            margin-left: 100px;
+            justify-content: space-between;
+            margin-right: 100px;
+        }
+        .section5_2 div{
+            width:800px;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .section5_3{
+            display:flex;
+            margin-left: 100px;
+            justify-content: space-between;
+            margin-right: 100px;
+        }
+        .section5 h1{
+            margin-left: 100px;
+            margin-top: 120px;
+        }
+        .section5_1 div{
+            width:800px;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .section5_3 div{
+            width:400px;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top:20px;
+        }
+        .section6{
+            display:flex;
+            color:white;
+            padding-left: 100px;
+            margin-top: 220px;
+        }
+        .section6 img{
+            width:350px;
+            border-radius: 50%;
+            padding-left: 100px;
+            margin-right: 100px;
+        } 
+        .section6_1{
+            padding:70px;
+        }
+        .section6_1 h1{
+            border-bottom: 0px;
+        }
+        .section5_1 .card1,.card2,.card3{
+            position: relative;
+        }
+        .section5_2 .card4,.card5,.card6{
+            position: relative;
+        }
+        .section5_3 .card7{
+            position: relative;
+        }
+        .section5_1 .card1 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_1 .card2 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_1 .card3 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_2 .card4 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_2 .card5 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_2 .card6 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+        .section5_3 .card7 img{
+            position:absolute;
+            width:20px;
+            top:0px;
+            left:370px;
+            border-radius: 5px;
+        }
+.section7_1{
+    display:flex;   
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section7 div{
+    width:700px;
+    background-color: white;
+    margin-right: 40px;
+    height:300px;
+    border-radius: 20px;
+}
+.section7 h1{
+    color:blue;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 220px;
+}
+.section7 button{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:15px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.section8 h1{
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+}
+.section8_1{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+}
+.section8_1 div{
+     width:700px;
+    background-color: white;
+    margin-right: 40px;
+    height:200px;
+    border-radius: 20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.section8_1 p{
+    color:black;
+}
+.section8_2 p{
+    color:black;
+}
+.section8_2{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.section8_2 div{
+    width:700px;
+    background-color: white;
+    margin-right: 40px;
+    height:200px;
+    border-radius: 20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.section9{
+    display:flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.section9 h1{
+    color:white;
+    margin-top:100px;
+}
+.section10{
+    display:flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: space-between;
+}
+.section10 h1{
+    color:white;
+    margin-top:100px;
+}
+.section11{
+    display:flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.section11 h1{
+    color:white;
+    margin-top:100px;
+}
+.section11 p{
+    color:white;
+}
+.section12{
+    display:flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: space-between;
+}
+.section12 h1{
+    color:white;
+    margin-top:100px;
+}
+.section12 p{
+    color:white;
+}
+.section13{
+    display:flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:100px;
+    justify-content: space-between;
+}
+.section13 h1{
+    color:white;
+    margin-top:100px;
+}
+.section13 p{
+    color:white;
+   
+}
+.section14{
+    display:flex;
+    justify-content: space-between;
+    margin-top:200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:50px;
+}
+.section14 > div{
+    width:50%;
+}
+.section15{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/*.stick{
+    position:sticky;
+    top:50px;
+    left:1400px;
+}*/
