@@ -33,7 +33,7 @@ if(percentage >0 ){
     let newSalary=empSalary*percentage;
     let taxAmount=empSalary*tax;
     let finalSalary=empSalary + newSalary - taxAmount;
-    let element=document.getElementById("employee").innerHTML=`<h1>${empName}</h1>`;
+    document.getElementById("employee").innerHTML=`<h1>${empName}</h1>`;
     document.getElementById("basic").innerHTML=`<h1>${empSalary}</h1>`;
     document.getElementById("years").innerHTML=`<h1>${newSalary}</h1>`;
     document.getElementById("tax").innerHTML=taxAmount; 
